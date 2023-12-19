@@ -314,7 +314,7 @@ const ImageMapper: React.FC<ImageMapperProps> = (props: ImageMapperProps) => {
     <div ref={container} id="img-mapper" style={styles(props).container}>
       <img
         ref={img}
-        role="presentation"
+        // role="menu"
         className="img-mapper-img"
         style={{ ...styles(props).img, ...(!imgRef ? { display: 'none' } : {}) }}
         src={srcProp}
